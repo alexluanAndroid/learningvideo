@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        app:subtitleTextColor="#ff0000"
+        android:background="?attr/colorPrimary">
+        <TextView
+            android:id="@+id/titleV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:text="标题"
+            android:textColor="@color/whiteColor"/>
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>
