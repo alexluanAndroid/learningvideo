@@ -62,12 +62,27 @@
                 android:textSize="12sp" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="2dp"></TextView>
+        <!--<HorizontalScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="0dp"-->
+            <!--android:background="@color/greenColor">-->
+            <GridView
+                android:id="@+id/list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:columnWidth="80dp"
+                android:gravity="center"
+                android:numColumns="auto_fit"
+                android:scrollbars="horizontal"
+                android:scrollbarStyle="insideOverlay"
+                android:stretchMode="none"
+                android:layout_gravity="center"
+                android:background="@color/redColor"></GridView>
+        <!--</HorizontalScrollView>-->
     </LinearLayout>
 
     <TextView

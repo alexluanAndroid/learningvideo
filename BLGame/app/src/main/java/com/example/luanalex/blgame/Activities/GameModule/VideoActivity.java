@@ -15,6 +15,7 @@ public class VideoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
+
         videoView = (MyVideoView) findViewById(R.id.video);
         String packagename = this.getPackageName();
         final String uri = ("android.resource://" + packagename + "/raw/vedio");
